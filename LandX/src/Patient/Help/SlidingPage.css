@@ -1,0 +1,77 @@
+/* src/SlidingPage.css */
+.sliding-page {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.container {
+    display: flex;
+    transition: transform 1s ease;
+    width: 100%; /* This depends on the number of pages */
+    height: 100%;
+    border-radius: 20px;
+}
+
+.page {
+    min-width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content:right;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #33333300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 48px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+.fact{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgba(1, 27, 21, 0.575);
+    display: flex;
+   
+}
+
+.boxen{
+    height:290px;
+    width:440px;
+    background-color: rgba(1, 27, 21, 0.086);
+    margin-left: 50px;
+    color: rgb(190, 255, 233);
+
+}
+
+.save{
+    width: 95px;
+    height:30px;
+    color: rgba(0, 0, 0, 0.645);
+    background-color: rgb(190, 255, 233);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-family: "Poppins",sans-serif;
+    margin-left: 340px;
+
+}

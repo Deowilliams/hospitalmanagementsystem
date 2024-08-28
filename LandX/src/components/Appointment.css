@@ -1,0 +1,44 @@
+.dpage.appointments {
+    background: #0000006c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+    width:90%;
+    margin-left: 50px;
+  }
+  
+  .dpage.appointments h2 {
+    color: #a8ffeb;
+  }
+  
+  .dsearch-bar {
+    width: 600px;
+    padding: 2px;
+    margin-bottom: 20px;
+    border: 1px solid #fffefe00;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

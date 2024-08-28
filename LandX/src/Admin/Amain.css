@@ -1,0 +1,12 @@
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+.bgm {
+    background-color: white;
+    height: 100vh;   /* Full viewport height */
+    width: 100vw;    /* Full viewport width */
+    overflow: auto;  /* Scrollable if content overflows */
+    padding: 20px;   /* Optional padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}

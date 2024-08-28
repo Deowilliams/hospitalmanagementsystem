@@ -1,0 +1,31 @@
+/* Camera.css */
+.camera-container {
+    
+    
+    height: 500px;
+    width: 50%;
+    background-color: #00000000;
+    margin-left: 5px;
+    margin-top: 100px;
+    
+}
+
+.camera-video {
+   
+    border-radius: 8px;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.camera-container1 {
+    
+    
+    height: 500px;
+    width: 40%;
+    background-color: #03291a6e;
+    margin-left: 5px;
+    margin-top: 100px;
+    border-radius: 5px;
+    
+}

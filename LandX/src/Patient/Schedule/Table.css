@@ -1,0 +1,40 @@
+
+.tab{
+  border-collapse: collapse;
+  color: #aafce2;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 30px 0 0 0;
+  width:1000px;
+  font-size: 20px;
+  
+  th {
+    border: 10px solid #fff;
+    border-collapse: collapse;
+  }
+  tr {
+    td {
+      background-color: #377d6b;
+      padding: 40px 0;
+      width: 200px;
+      span {
+        opacity: 1;
+        transition: opacity 900ms ease-in-out;
+      }
+    }
+  }
+  .hidden {
+    opacity: 0;
+  }
+  @media (max-width: 640px) {
+    font-size: 12px;
+    tr {
+      td {
+        padding: 40px 0;
+        width: 200px;
+        span {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}

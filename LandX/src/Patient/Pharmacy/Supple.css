@@ -1,0 +1,93 @@
+/* Add CSS transitions for smooth animations */
+.zactivity-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.fitness-tracker-container{
+  background-color: rgba(0, 0, 0, 0.326);
+  width:97%;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+  .zactivity-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #c61212;
+    transition: all 0.3s ease;
+
+  }
+  
+  .zactivity-list li:hover {
+    background-color: #c41212;
+  }
+  
+  .zactivity-container { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    gap: 70px;
+    background-color: rgba(6, 71, 65, 0);
+  }
+  
+  .zactivity {
+    background-color: #2a605f;
+    padding: 3px 150px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .zactivity:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(126, 123, 123, 0.1);
+  }
+  
+  .zsummary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #8e0505;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .zsummary:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(171, 167, 167, 0.1);
+  }
+
+
+
+  .zClick {
+    background-color: #870a0a; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .zClick1 {
+    background-color: rgb(151, 15, 15); 
+    color: rgb(255, 253, 253); 
+    
+  }
+  
+  .zClick1:hover {
+    background-color: #a5e4a5;
+    color: white;
+  }
+  
+
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-left: 60px solid #50a4df;
+    border-bottom: 35px solid transparent;
+    
+  }

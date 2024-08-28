@@ -1,0 +1,22 @@
+.app {
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(1, 46, 37, 0.403);
+    border-radius: 20PX;
+    
+    
+    h1{
+      color: rgb(127, 229, 207);
+      font-weight: 400;
+      span{
+
+         color: rgb(160, 254, 227);
+         font-weight: 400;
+      }
+    }
+  }
+  
+  .dashboard{
+    display: flex;
+    justify-content: space-around;
+  }

@@ -1,0 +1,89 @@
+.dnavbar {
+    background-image: radial-gradient(circle, #4aae7fb3, rgba(1, 105, 81, 0.729));
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    height:100px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 20px;
+    font-weight:400
+  }
+  
+  .dnavbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dnavimg {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .dnavbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dnavbar li {
+    margin: 0 10px;
+  }
+  
+  .dnavbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .dnavbar a:hover {
+   color:rgb(79, 222, 175)
+  }
+  
+  .dmenu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fas {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .dnav-links {
+    display: flex;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .dmenu-icon {
+      display: block;
+    }
+  
+    .dnav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #0044cc;
+    }
+  
+    .dnav-links.open {
+      display: flex;
+    }
+  
+    .dnav-links li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.dpage.prescription-management {
+    padding: 20px;
+  }
+  
+  .dadd-prescription {
+    margin-bottom: 20px;
+  }
+  
+  .dadd-prescription input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .dprescription-list .prescription {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .dpage {
+    background: #00000071;
+    padding: 20px;
+   
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .dpage h2 {
+    color: #81ebc8;
+  } 
+  

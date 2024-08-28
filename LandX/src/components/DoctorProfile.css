@@ -1,0 +1,46 @@
+/* Centering and styling the container */
+.doctor-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+
+.doctor-profile-content {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.doctor-profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.doctor-profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.doctor-profile-specialization,
+.doctor-profile-gender,
+.doctor-profile-contact,
+.doctor-profile-address {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.doctor-profile-error,
+.doctor-profile-loading {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}

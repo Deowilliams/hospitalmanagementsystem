@@ -1,0 +1,256 @@
+
+.pie-chart-label {
+    color: white !important; /* Ensure label text is white */
+  }
+
+.fog1{
+    height:200px;
+    
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 99vw; /* Full viewport width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of slides */
+    box-sizing: border-box;
+
+
+   
+}
+
+
+
+.fog2{
+    height:340px;
+    width: 97%;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.27);
+    border-radius: 10px;
+   
+}
+
+
+ .fog3{
+  background-color: rgba(0, 0, 0, 0.234);
+  border-radius: 10px;
+  height: 150px;
+  width: 350px;
+  margin-left: 30px;
+ }
+
+ #fog31{
+   background-color: #4aae7fb3;
+   color:rgb(187, 242, 224);
+ }
+
+ #fog32{
+  background-color: rgba(1, 105, 81, 0.729);
+   color:rgb(187, 242, 224)
+}
+
+#fog33{
+  background-color: #4aae7fb3;
+  color:rgb(187, 242, 224);
+}
+
+#fog34{
+  background-color: rgba(1, 105, 81, 0.729);
+   color:rgb(187, 242, 224)
+}
+
+#fog35{
+  background-color: #4aae7fb3;
+  color:rgb(187, 242, 224);
+}
+
+#fog36{
+  background-color: rgba(1, 105, 81, 0.729);
+   color:rgb(187, 242, 224)
+}
+
+ .slider{
+  display: flex; /* Make it a block-level element but allow it to sit inline with others */
+  height: 200px; 
+  transition: transform 1s ease;
+ }
+
+.axe{
+    height:200px;
+    width: 920px;
+    margin-left: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+   
+}
+
+.ace1{
+    height:190px;
+    width: 240px;
+    margin-left: 1px;
+    background-color: rgba(0, 0, 0, 0.396);
+    background-position: center;
+    border-radius: 10px;
+   
+}
+
+.ace2{
+    height:190px;
+    width: 240px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.396);
+    border-radius: 10px;
+   
+}
+
+
+/* src/components/SlidingHoverImage.css */
+
+.image-container {
+    /* Position relative to allow absolute positioning of overlay */
+    /* Adjust as needed */
+    overflow: hidden; /* Hide the overflow */;
+    border-radius: 10px;
+    
+  }
+  
+  .hover-image {
+    width: 100%;
+  
+    height: 2000px;
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start off-screen */
+    transition: left 0.5s ease-in-out; /* Smooth sliding transition */
+  }
+  
+  .image-container:hover .hover-image {
+    left: 0; /* Slide to the visible area */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(90, 249, 180, 0.966); /* Semi-transparent black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for the overlay */
+    color: white; /* Text color for the overlay */
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .overlay-text {
+    font-size: 1.5em; /* Adjust text size as needed */
+  }
+  
+
+
+
+  .booking{
+       height:510px;
+       width:97%;
+       margin-left: 30px;
+       border-radius: 20px;
+       h2{
+        font-size: 40px;
+        font-weight: 400;
+        color:rgb(219, 255, 243)
+       }
+       background-image: radial-gradient(circle, #4aae7f3a,  rgba(1, 27, 21, 0.284));
+  }
+
+  .banner{
+    background-color: rgba(15, 47, 36, 0.799);
+    color: rgb(116, 229, 173);
+    height:330px;
+    width:99%;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+
+  .general{
+    height:700px;
+    background-color: #377d6b;
+    width:100%;
+   
+    
+  }
+
+  .appointment{
+    height:260px;
+    width:440px;
+    border-radius: 5px;
+    background-color: #0000000b;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .abutton{
+    background-color: #f9f9f9; /* Green */
+    border: none;
+    color: rgb(47, 172, 128);
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+    border-radius: 2px;
+  }
+
+  .abutton1{
+    background-color: rgb(251, 251, 251); 
+    color: rgb(53, 150, 113); 
+    border: 2px solid #00000000;
+  }
+
+  .abutton1:hover{
+    background-color: #429b6c;
+    color: rgb(255, 255, 255);
+  }
+
+  .Button {
+    background-color: #5ae7a8; /* Green */
+    border: none;
+    color: rgb(21, 129, 91);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  
+  .Button1 {
+    background-color: rgb(116, 229, 173); 
+    color: rgb(13, 85, 57); 
+    border: 2px solid #00000000;
+  }
+  
+  .Button1:hover {
+    background-color: #cc9e5d;
+    color: rgb(154, 122, 67);
+  }
+
+.live{
+  height:1300px;
+}
+
+

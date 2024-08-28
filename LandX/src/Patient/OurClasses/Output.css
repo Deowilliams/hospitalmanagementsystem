@@ -1,0 +1,39 @@
+
+.output{
+  text-align: left;
+  img {
+    width: 70%;
+    height: 50%;
+    display: block;
+  }
+  .button{
+    text-decoration: none;
+  display: inline-block;
+  background: #ed563b;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 14px;
+  transition: background 500ms ease-in-out;
+  &:hover {
+    background: #f9735b;
+  }
+  }
+  h2 {
+    margin: 34px 0 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  p {
+    margin: 20px 0;
+  }
+  .btn {
+    padding: 14px 26px;
+  }
+  @media(max-width: 900px){
+    img{
+      height: 260px;
+     
+    }
+  }
+}
